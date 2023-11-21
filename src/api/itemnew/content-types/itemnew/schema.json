@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "itemnews",
+  "info": {
+    "singularName": "itemnew",
+    "pluralName": "itemnews",
+    "displayName": "itemnew",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "longDescription": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "allInOne"
+      ]
+    }
+  }
+}
